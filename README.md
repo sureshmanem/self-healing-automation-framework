@@ -270,7 +270,7 @@ def hover(self, selector: str, timeout: float = 30000, **kwargs) -> None:
         pass
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on contributing to the project.
+See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for detailed guidelines on contributing to the project.
 
 ## 📊 Limitations
 
@@ -281,13 +281,23 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on contributing t
 
 ## 🤝 Contributing
 
-Contributions welcome! Areas for improvement:
+Contributions welcome! Please read [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
+
+Areas for improvement:
 - Add more self-healing methods (hover, select, etc.)
 - Implement selector caching to reduce API calls
 - Add metrics and success rate tracking
 - Support for async Playwright API
 
-## 📄 License
+## � Documentation
+
+Comprehensive documentation is available in the [docs/](docs/) directory:
+- [Quick Start Guide](docs/QUICKSTART.md) - Get started in 5 minutes
+- [Contributing Guidelines](docs/CONTRIBUTING.md) - How to contribute
+- [Project Structure](docs/PROJECT_STRUCTURE.md) - Codebase organization
+- [Organization Summary](docs/ORGANIZATION_SUMMARY.md) - Workspace organization details
+
+## �📄 License
 
 MIT License - feel free to use in your projects!
 
